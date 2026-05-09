@@ -86,30 +86,39 @@ const index = () => {
       <View style={{padding:16,justifyContent:'center',flexDirection:'row',gap: 8}}>
         <Pressable
           style={{
-            padding: 12,
+            width:50,
+            height: 50,
             borderWidth: 1,
             borderColor: "#d3cfcf",
             borderRadius: 14,
+            alignItems: "center",
+            justifyContent: "center"
           }}
         >
-        <Icon name="facebook" size={24} color="#030405" />
+        <Icon name="facebook" size={22} color="#030405" />
         </Pressable>
         <Pressable
           style={{
-            padding: 12,
+            width:50,
+            height: 50,
             borderWidth: 1,
             borderColor: "#d3cfcf",
             borderRadius: 14,
+            alignItems: "center",
+            justifyContent: "center"
           }}
         >
         <Icon name="google" size={24} color="#030405" />
         </Pressable>
         <Pressable
           style={{
-            padding: 12,
+            width:50,
+            height: 50,
             borderWidth: 1,
             borderColor: "#d3cfcf",
             borderRadius: 14,
+            alignItems: "center",
+            justifyContent: "center"
           }}
         >
         <Icon name="instagram" size={24} color="#030405" />
